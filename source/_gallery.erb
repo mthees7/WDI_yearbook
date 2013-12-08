@@ -1,5 +1,25 @@
 <!-- gallery partial -->
 
-<h1>This is the gallery section</h1>
+<!-- <h1>This is the gallery section</h1>
 
-<!-- put in a gallery of projects -->
+<div class="view view-first>
+  < % data.projects.each do |project| %>
+     <img src="< % project.img %>" />
+     <div class="mask" >
+     <h2>< %= project.owner %></h2>
+     <p>< %= project.name %></p>
+        <a href="< % project.url %>" class="info">Read More</a>
+     </div>
+
+  < % end %>
+</div> -->
+
+<div class="view">
+     <img src="image.gif" />
+     <div class="mask">
+     <h2>Title</h2>
+     <p>Your Text</p>
+         <a href="#" class="info">Read More</a>
+</div>
+
+
