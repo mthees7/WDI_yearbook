@@ -1,33 +1,43 @@
 <!-- Profile partial-->
 
 <h1>This is the profile section</h1>
-<% data.students.person.each do |student| %>
+<% data.profile.students.each do |student| %>
   <section>
     <div class="profile_student_name">
+      <%= student.name %>
     </div>
 
     <div class="profile_student_info">
-
+      <%= student.info %>
     </div>
 
 
-    <div class="profile_info_graphic">
-
+    <div class="profile_graphic">
+      <%= student.graphic %>
     </div>
 
 
     <div class="profile_student_links">
-
+      <ul>
+        <li><%= link_portfolio %></li>
+        <li><%= link_email %></li>
+        <li><%= link_git %></li>
+        <li><%= link_linkedin %></li>
+        <li><%= link_twitter %></li>
+      </ul>
     </div>
 
 
     <div class="profile_project_section project_1">
       <div class="single_project_container">
-        <div class="project_image">
-
+        <div class="profile_project_image">
+          <%= project_1_image %>
         </div>
-        <div class="project_info">
-
+        <div class="profile_project_title">
+          <%= project_1_title %>
+        </div>
+        <div class="profile_project_info">
+          <%= project_1_info %>
         </div>
       </div>
     </div>
@@ -35,6 +45,12 @@
     <div class="profile_project_section project_2">
       <div class="single_project_container">
         <div class="project_image">
+<%= project_2_image %>
+<%= project_2_title %>
+<%= project_2_info %>
+
+
+
 
         </div>
         <div class="project_info">

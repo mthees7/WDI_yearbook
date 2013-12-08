@@ -1,0 +1,92 @@
+students:
+
+  - name: Corinne Brady
+    info:
+    graphic:
+    link_portfolio:
+    link_email:
+    link_git:
+    link_linkedin:
+    link_twitter:
+    project_1_image:
+    project_1_title:
+    project_1_info:
+    project_2_image:
+    project_2_title:
+    project_2_info:
+
+  - name: Albert Jou
+    info:
+    graphic:
+    link_portfolio:
+    link_email:
+    link_git:
+    link_linkedin:
+    link_twitter:
+    project_1_image:
+    project_1_title:
+    project_1_info:
+    project_2_image:
+    project_2_title:
+    project_2_info:
+
+  - name: Angie Gove
+    info:
+    graphic:
+    link_portfolio:
+    link_email:
+    link_git:
+    link_linkedin:
+    link_twitter:
+    project_1_image:
+    project_1_title:
+    project_1_info:
+    project_2_image:
+    project_2_title:
+    project_2_info:
+
+  - name: Matt Thees
+    info:
+    graphic:
+    link_portfolio:
+    link_email:
+    link_git:
+    link_linkedin:
+    link_twitter:
+    project_1_image:
+    project_1_title:
+    project_1_info:
+    project_2_image:
+    project_2_title:
+    project_2_info:
+
+  - name: Nick Doherty
+    info:
+    graphic:
+    link_portfolio:
+    link_email:
+    link_git:
+    link_linkedin:
+    link_twitter:
+    project_1_image:
+    project_1_title:
+    project_1_info:
+    project_2_image:
+    project_2_title:
+    project_2_info:
+
+  - name: Riana Ferrier
+    info:
+    graphic:
+    link_portfolio:
+    link_email:
+    link_git:
+    link_linkedin:
+    link_twitter:
+    project_1_image:
+    project_1_title:
+    project_1_info:
+    project_2_image:
+    project_2_title:
+    project_2_info:
+
