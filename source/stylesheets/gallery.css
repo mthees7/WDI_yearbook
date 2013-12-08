@@ -51,9 +51,32 @@
     text-transform: uppercase;
     box-shadow: 0 0 1px #000;
 }
+.view-first img {
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(219,127,8, 0.7);
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
 .view a.info:hover {
     box-shadow: 0 0 5px #000;
 }
+
 .view-first:hover img {
     transform: scale(1.1);
 }

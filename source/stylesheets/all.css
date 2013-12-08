@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+.header {
+  background-image: url("http://placekitten.com/960/500");
+  height: 500px;
+  width: 960px;
+  background-size: cover;
+
+}
 body {
   background: #d4d4d4 url("../images/background.png");
   text-align: center;
