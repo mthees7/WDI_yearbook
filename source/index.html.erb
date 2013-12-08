@@ -2,9 +2,19 @@
 title: Welcome to Middleman
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="top-banner"><!-- this is where the banner will go, put it into the partial _header -->
+  <%= partial "header" %>
+</div><!-- header -->
+
+<div class="main">
+
+  <div class="nav"><!-- this is where the nav will go, please put nav contents into partial _nav.html.erb -->
+  <%= partial "navbar" %>
+
+  </div><!-- nav -->
+
+  <div class="profile"><!-- this is where the partial for the profiles will go -->
+  <%= partial "profile" %>
+  </div><!-- profile -->
+
+</div><!-- main -->
