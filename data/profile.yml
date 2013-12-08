@@ -10,11 +10,11 @@ students:
     link_git: http://www.google.com/example
     link_linkedin: http://www.google.com/example
     link_twitter: http://www.google.com/example
-    project_1_image: http://www.placekitten.com/300/175
-    project_1_title: Project 1 Test Title
+    project_1_image: /images/glimpsed.png
+    project_1_title: Project 1 Glimpsed
     project_1_info: Project 1 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget purus arcu. Duis et.
-    project_2_image: http://www.placekitten.com/300/175
-    project_2_title: Project 2 Test Title
+    project_2_image: /images/ediblelove.png
+    project_2_title: Project 2 EdibleLove
     project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
 
   - name: Albert Jou
@@ -44,12 +44,13 @@ students:
     link_git:
     link_linkedin:
     link_twitter:
-    project_1_image:
-    project_1_title:
-    project_1_info:
-    project_2_image:
-    project_2_title:
-    project_2_info:
+    project_1_image: /images/barhopper.png
+    project_1_title: Project 1 BarHopper
+    project_1_info: Project 1 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget purus arcu. Duis et.
+    project_2_image: /images/ediblelove.png
+    project_2_title: Project 2 EdibleLove
+    project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
+
 
   - name: Matt Thees
     picture:
@@ -85,20 +86,20 @@ students:
     project_2_title:
     project_2_info:
 
-  - name: Riana Ferrier
+  - name: Riana Ferreira
     picture:
-    info_p_1:
-    info_p_2:
+    info_p_1: YOLO bicycle rights drinking vinegar cray letterpress. Fashion axe bicycle rights kale chips, asymmetrical Williamsburg four loko retro gluten-free Godard kitsch post-ironic church-key beard. DIY cliche polaroid, umami raw denim irony master cleanse Thundercats letterpress 3 wolf moon fap asymmetrical bitters readymade Pitchfork. Portland plaid Carles, fashion axe put a bird on it readymade twee craft beer disrupt four loko letterpress meh selvage. Asymmetrical food truck polaroid, Truffaut next level occupy Williamsburg letterpress. Gentrify dreamcatcher yr polaroid Brooklyn, McSweeneys High Life Pitchfork Neutra blog. Kale chips pug gentrify, pour-over brunch YOLO hella selfies cray salvia.
+    info_p_2: Try-hard whatever keffiyeh, YOLO ugh Carles fixie photo booth farm-to-table ethnic tote bag raw denim. McSweeney's tattooed pug, ugh yr slow-carb gentrify blog roof party Vice Pitchfork messenger bag VHS. Hoodie leggings post-ironic Pinterest Schlitz jean shorts, Neutra XOXO mumblecore wayfarers plaid bitters kale chips. Bushwick cred plaid Schlitz pug flexitarian freegan semiotics, whatever synth Marfa biodiesel butcher. Ennui bicycle rights kogi pour-over American Apparel. Selvage gastropub keytar photo booth, Carles Shoreditch flannel kitsch. High Life XOXO semiotics, tousled cray four loko letterpress.
     graphic:
     link_portfolio:
-    link_email:
+    link_email: rianaferreira@gmail.com
     link_git:
     link_linkedin:
     link_twitter:
-    project_1_image:
-    project_1_title:
-    project_1_info:
-    project_2_image:
-    project_2_title:
-    project_2_info:
+    project_1_image: /images/cubbylife.png
+    project_1_title: CubbyLife
+    project_1_info: Irure whatever Truffaut, next level Brooklyn velit labore culpa nostrud nisi biodiesel. Occupy ea before they sold out, drinking vinegar kitsch vegan pour-over literally. You probably haven't heard of them selvage nesciunt brunch, commodo ugh Cosby sweater sint fingerstache direct trade do biodiesel plaid. Adipisicing Thundercats scenester seitan Echo Park flexitarian. Excepteur locavore ennui enim. Tousled ugh Neutra ea eu synth. Brooklyn keffiyeh voluptate beard put a bird on it.
+    project_2_image: /images/sharemyride.png
+    project_2_title: ShareMyRide
+    project_2_info: Labore stumptown Tonx in, excepteur reprehenderit cray. Ea skateboard nostrud cred anim quinoa. Tonx master cleanse chillwave fashion axe pork belly, et quis typewriter qui twee Schlitz tote bag salvia fixie. Flexitarian single-origin coffee kitsch, authentic chia dreamcatcher pariatur Intelligentsia duis cupidatat. Lomo Neutra DIY chia flannel. Chia flannel photo booth Neutra lomo. Cornhole freegan gentrify sint trust fund, ethnic meggings Echo Park hoodie mixtape ethical.
 
