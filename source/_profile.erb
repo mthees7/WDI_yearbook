@@ -8,12 +8,17 @@
     </div>
 
     <div class="profile_student_info">
-      <%= student.info %>
+      <div class="profile_info_p_1">
+        <%= student.info_p_1 %>
+      </div>
+      <div class="profile_info_p_2">
+        <%= student.info_p_2 %>
+      </div>
     </div>
 
 
     <div class="profile_graphic">
-      <%= student.graphic %>
+      <img src="<%= student.graphic %>">
     </div>
 
 
@@ -54,10 +59,10 @@
     </div>
 
 
-    <div class="profile_project_section project_1">
+    <div class="profile_project_section profile_project_1">
       <div class="single_project_container">
         <div class="profile_project_image">
-          <%= student.project_1_image %>
+          <img src="<%= student.project_1_image %>">
         </div>
         <div class="profile_project_title">
           <%= student.project_1_title %>
@@ -68,10 +73,10 @@
       </div>
     </div>
 
-    <div class="profile_project_section project_2">
+    <div class="profile_project_section profile_project_2">
       <div class="single_project_container">
         <div class="project_image">
-          <%= student.project_2_image %>
+          <img src="<%= student.project_2_image %>">
         </div>
         <div class="profile_project_title">
           <%= student.project_2_title %>

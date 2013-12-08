@@ -1,19 +1,20 @@
 students:
 
   - name: Corinne Brady
-    info:
-    graphic:
-    link_portfolio:
-    link_email:
-    link_git:
-    link_linkedin:
-    link_twitter:
-    project_1_image:
-    project_1_title:
-    project_1_info:
-    project_2_image:
-    project_2_title:
-    project_2_info:
+    info_p_1: Lorem ipsum pellentesque fermentum a diam eget condimentum. Donec rhoncus ultrices nulla sit amet tincidunt. Aliquam quis interdum dolor, vel condimentum nibh. Aliquam vulputate quis quam et lobortis. Vivamus vitae felis sit amet ipsum adipiscing ullamcorper egestas ac neque. Ut sagittis id neque vel vulputate.
+    info_p_2: Integer viverra libero a posuere iaculis. Integer fermentum sollicitudin purus gravida feugiat. In nec lacus euismod nibh ullamcorper vestibulum et vel ligula. Vestibulum ut scelerisque risus. Nullam in urna quis eros suscipit malesuada. Mauris commodo massa et turpis egestas malesuada. Maecenas aliquet ultricies metus sit amet ornare. Etiam scelerisque ipsum velit, eget adipiscing quam scelerisque non. Cras vel velit blandit tortor commodo elementum.
+    graphic: http://farm5.static.flickr.com/4059/4445705276_bd862a1971.jpg
+    link_portfolio: http://www.google.com/example
+    link_email: corinnebrady@gmail.com
+    link_git: http://www.google.com/example
+    link_linkedin: http://www.google.com/example
+    link_twitter: http://www.google.com/example
+    project_1_image: http://www.placekitten.com/150/150
+    project_1_title: Project 1 Test Title
+    project_1_info: Project 1 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget purus arcu. Duis et.
+    project_2_image: http://www.placekitten.com/150/150
+    project_2_title: Project 2 Test Title
+    project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
 
   - name: Albert Jou
     info:
