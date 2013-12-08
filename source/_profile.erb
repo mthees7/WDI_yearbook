@@ -19,11 +19,37 @@
 
     <div class="profile_student_links">
       <ul>
-        <li><%= link_portfolio %></li>
-        <li><%= link_email %></li>
-        <li><%= link_git %></li>
-        <li><%= link_linkedin %></li>
-        <li><%= link_twitter %></li>
+        <li>
+          <a href="<%= student.link_portfolio %>">
+            <i class="fa fa-external-link"></i>
+            <i class="fa fa-external-link-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="<%= student.link_email %>">
+            <i class="fa fa-envelope"></i>
+            <i class="fa fa-envelope-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="<%= student.link_git %>">
+            <i class="fa fa-github-alt"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-github-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="<%= student.link_linkedin %>">
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="<%= student.link_twitter %>">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-twitter-square"></i>
+          </a>
+        </li>
       </ul>
     </div>
 
@@ -31,13 +57,13 @@
     <div class="profile_project_section project_1">
       <div class="single_project_container">
         <div class="profile_project_image">
-          <%= project_1_image %>
+          <%= student.project_1_image %>
         </div>
         <div class="profile_project_title">
-          <%= project_1_title %>
+          <%= student.project_1_title %>
         </div>
         <div class="profile_project_info">
-          <%= project_1_info %>
+          <%= student.project_1_info %>
         </div>
       </div>
     </div>
@@ -45,16 +71,13 @@
     <div class="profile_project_section project_2">
       <div class="single_project_container">
         <div class="project_image">
-<%= project_2_image %>
-<%= project_2_title %>
-<%= project_2_info %>
-
-
-
-
+          <%= student.project_2_image %>
+        </div>
+        <div class="profile_project_title">
+          <%= student.project_2_title %>
         </div>
         <div class="project_info">
-
+          <%= student.project_2_info %>
         </div>
       </div>
     </div>
