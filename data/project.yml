@@ -3,7 +3,7 @@ projects:
   - name: AirGuideBook
     owner: Nick Doherty
     image: /images/airguidebook.png
-    url: www.airguidebook.com
+    url: http://www.airguidebook.com/
 
   - name: BarHopper
     owner: Angie Gove
@@ -18,7 +18,7 @@ projects:
   - name: CustomisedAcoustic
     owner: Albert Jou
     image: /images/customisedacoustic.png
-    url: whispering-shore-8643.herokuapp.com
+    url: http://whispering-shore-8643.herokuapp.com/
 
   - name: EdibleLove
     owner: Angie Gove and Corinne Brady
@@ -28,7 +28,7 @@ projects:
   - name: FocusMe
     owner: Matt Thees
     image: /images/focusgroup.png
-    url: focusgroupapp.herokuapp.com
+    url: http://focusgroupapp.herokuapp.com
 
   - name: Glimpsed
     owner: Corinne Brady
@@ -38,12 +38,12 @@ projects:
   - name: Hopp
     owner: Matt Thees and Nick Doherty
     image: /images/hopp.png
-    url: www.hoppto.it
+    url: http://www.hoppto.it/
 
   - name: NeighbourFood
     owner: Albert Jou
     image: /images/neighbourfood.png
-    url: neighbourfood.com.au
+    url: http://neighbourfood.com.au
 
   - name: ShareMyRide
     owner: Riana Ferreira

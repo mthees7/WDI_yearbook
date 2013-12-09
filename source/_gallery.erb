@@ -4,17 +4,11 @@
 
 <% data.project.projects.each do |project| %>
   <div class="view view-first">
-    <%= project %>
+    <div class="mask">
+      <img src="<% project.image %>"/>
+      <h2><%= project.name %></h2>
+      <p>Sample text about project</p>
+      <a href="<%= project.url %>" class="info">Read More</a>
+    </div>
   </div>
 <% end %>
-
-
-
-<!--div class="view view-first">
-     <img src="http://placekitten.com/300/200"/>
-     <div class="mask">
-       <h2>Title</h2>
-       <p>Your Text</p>
-          <a href="#" class="info">Read More</a>
-     </div>
-</div-->
