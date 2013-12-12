@@ -9,7 +9,7 @@
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+    background: #fff url(/images/background.png) no-repeat center center;
 }
 .view .mask, .view .content {
     width: 300px;

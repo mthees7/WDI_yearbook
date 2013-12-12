@@ -1,0 +1,51 @@
+projects:
+
+  - name: AirGuideBook
+    owner: Nick Doherty
+    image: /images/airguidebook.png
+    url: http://www.airguidebook.com/
+
+  - name: BarHopper
+    owner: Angie Gove
+    image: /images/barhopper.png
+    url: http://barhopper.herokuapp.com/
+
+  - name: CubbyLife
+    owner: Riana Ferreira
+    image: /images/cubbylife.png
+    url: http://cubbylife.heroku.com/
+
+  - name: CustomisedAcoustic
+    owner: Albert Jou
+    image: /images/customisedacoustic.png
+    url: http://whispering-shore-8643.herokuapp.com/
+
+  - name: EdibleLove
+    owner: Angie Gove and Corinne Brady
+    image: /images/ediblelove.png
+    url: http://ediblelove.herokuapp.com/
+
+  - name: FocusMe
+    owner: Matt Thees
+    image: /images/focusgroup.png
+    url: http://focusgroupapp.herokuapp.com
+
+  - name: Glimpsed
+    owner: Corinne Brady
+    image: /images/glimpsed.png
+    url: http://pictures-app.herokuapp.com/
+
+  - name: Hopp
+    owner: Matt Thees and Nick Doherty
+    image: /images/hopp.png
+    url: http://www.hoppto.it/
+
+  - name: NeighbourFood
+    owner: Albert Jou
+    image: /images/neighbourfood.png
+    url: http://neighbourfood.com.au
+
+  - name: ShareMyRide
+    owner: Riana Ferreira
+    image: /images/sharemyride.png
+    url: http://share-my-ride.herokuapp.com/
