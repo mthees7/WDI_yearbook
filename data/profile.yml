@@ -5,16 +5,16 @@ students:
     info_p_1: Lorem ipsum pellentesque fermentum a diam eget condimentum. Donec rhoncus ultrices nulla sit amet tincidunt. Aliquam quis interdum dolor, vel condimentum nibh. Aliquam vulputate quis quam et lobortis. Vivamus vitae felis sit amet ipsum adipiscing ullamcorper egestas ac neque. Ut sagittis id neque vel vulputate.
     info_p_2: Integer viverra libero a posuere iaculis. Integer fermentum sollicitudin purus gravida feugiat. In nec lacus euismod nibh ullamcorper vestibulum et vel ligula. Vestibulum ut scelerisque risus. Nullam in urna quis eros suscipit malesuada. Mauris commodo massa et turpis egestas malesuada. Maecenas aliquet ultricies metus sit amet ornare. Etiam scelerisque ipsum velit, eget adipiscing quam scelerisque non. Cras vel velit blandit tortor commodo elementum.
     quote: This is a quote viverra libero a posuere iaculis.
-    link_portfolio: http://www.google.com/example
+    link_portfolio: http://www.example.com
     link_email: corinnebrady@gmail.com
-    link_git: http://www.google.com/example
-    link_linkedin: http://www.google.com/example
-    link_twitter: http://www.google.com/example
+    link_git: http://www.example.com
+    link_linkedin: http://www.example.com
+    link_twitter: http://www.example.com
     project_1_image: /images/glimpsed.png
-    project_1_title: Project 1 Glimpsed
+    project_1_title: Glimpsed
     project_1_info: Project 1 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget purus arcu. Duis et.
     project_2_image: /images/ediblelove.png
-    project_2_title: Project 2 EdibleLove
+    project_2_title: EdibleLove
     project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
 
   - name: Albert Jou
