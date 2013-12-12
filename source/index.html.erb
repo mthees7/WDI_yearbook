@@ -1,5 +1,5 @@
 ---
-title: Welcome to Middleman
+title: WDI Sydney - September 2013
 ---
 
 <div class="top-banner"><!-- this is where the banner will go, put it into the partial _header -->
@@ -7,19 +7,29 @@ title: Welcome to Middleman
 </div><!-- header -->
 
 <div class="main">
+  <div class="row ">
 
-  <div class="nav"><!-- this is where the nav will go, please put nav contents into partial _nav.html.erb -->
-  <%= partial "navbar" %>
+    <div class="col-sm-1 col-md-1">
+      <div class="nav"><!-- this is where the nav will go, please put nav contents into partial _nav.html.erb -->
+        <%= partial "navbar" %>
+      </div><!-- nav -->
+    </div><!-- col 1 -->
 
-  </div><!-- nav -->
+    <div class="col-sm-11 col-md-11">
+      <div class="GA_info"><!-- this is where the partial for the GA_info will go, please put nav contents into partial GA_info.html.erb -->
+        <%= partial "GA_info" %>
+      </div><!-- GA_info -->
 
-  <div class="profile"><!-- this is where the partial for the profiles will go -->
-  <%= partial "profile" %>
-  </div><!-- profile -->
+      <div class="profile"><!-- this is where the partial for the profiles will go -->
+        <%= partial "profile" %>
+      </div><!-- profile -->
 
-  <div class="gallery">
-    <%= partial "gallery" %>
-  </div>
+      <div class="gallery">
+        <%= partial "gallery" %>
+      </div>
+    </div><!-- col 11 -->
+
+  </div><!-- row main -->
 </div><!-- main -->
 
 <script>

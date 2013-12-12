@@ -3,10 +3,9 @@
 <h1>This is the profile section</h1>
 <% data.profile.students.each do |student| %>
 <div class="row">
-  <div class="col-sm-12 col-md-12">
-  </div><!-- col 12 close -->
-</div><!-- row close -->
-    <section>
+  <div class="col-sm-1 col-md-1"></div>
+  <div class="col-sm-11 col-md-11">
+    <section class="single_profile_section">
       <div class="profile_student_name">
         <%= student.name %>
       </div>
@@ -26,7 +25,7 @@
 
 
       <div class="profile_graphic">
-        <img src="<%= student.graphic %>">
+        <%= student.quote %>
       </div>
 
 
@@ -67,41 +66,23 @@
       </div>
 
       <div class="row">
+        <section class="profile_project_section">
+          <div class="col-sm-6 col-md-6 single_project_container profile_project_1">
+            <div class="profile_project_image"><img src="<%= student.project_1_image %>"></div>
+            <div class="profile_project_title"><%= student.project_1_title %></div>
+            <div class="profile_project_info"><%= student.project_1_info %></div>
+          </div><!-- col 6 close -->
 
-        <div class="col-sm-6 col-md-6">
-          <div class="profile_project_section profile_project_1">
-            <div class="single_project_container">
-              <div class="profile_project_image">
-                <img src="<%= student.project_1_image %>">
-              </div>
-              <div class="profile_project_title">
-                <%= student.project_1_title %>
-              </div>
-              <div class="profile_project_info">
-                <%= student.project_1_info %>
-              </div>
-            </div>
-          </div>
-        </div><!-- col 6 close -->
-
-        <div class="col-sm-6 col-md-6">
-          <div class="profile_project_section profile_project_2">
-            <div class="single_project_container">
-              <div class="project_image">
-                <img src="<%= student.project_2_image %>">
-              </div>
-              <div class="profile_project_title">
-                <%= student.project_2_title %>
-              </div>
-              <div class="project_info">
-                <%= student.project_2_info %>
-              </div>
-            </div>
-          </div>
-        </div><!-- col 6 close -->
-
+          <div class="col-sm-6 col-md-6 single_project_container profile_project_2">
+            <div class="project_image"><img src="<%= student.project_2_image %>"></div>
+            <div class="profile_project_title"><%= student.project_2_title %></div>
+            <div class="project_info"><%= student.project_2_info %></div>
+          </div><!-- col 6 close -->
+        </section><!-- profile_project_section close -->
       </div><!-- row close -->
 
-    </section>
+    </section><!-- single_profile_section close -->
+  </div><!-- col 11 close -->
+</div><!-- row close -->
 
 <% end %>

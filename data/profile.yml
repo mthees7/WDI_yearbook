@@ -4,7 +4,7 @@ students:
     picture: http://www.placekitten.com/200/400
     info_p_1: Lorem ipsum pellentesque fermentum a diam eget condimentum. Donec rhoncus ultrices nulla sit amet tincidunt. Aliquam quis interdum dolor, vel condimentum nibh. Aliquam vulputate quis quam et lobortis. Vivamus vitae felis sit amet ipsum adipiscing ullamcorper egestas ac neque. Ut sagittis id neque vel vulputate.
     info_p_2: Integer viverra libero a posuere iaculis. Integer fermentum sollicitudin purus gravida feugiat. In nec lacus euismod nibh ullamcorper vestibulum et vel ligula. Vestibulum ut scelerisque risus. Nullam in urna quis eros suscipit malesuada. Mauris commodo massa et turpis egestas malesuada. Maecenas aliquet ultricies metus sit amet ornare. Etiam scelerisque ipsum velit, eget adipiscing quam scelerisque non. Cras vel velit blandit tortor commodo elementum.
-    graphic: http://farm5.static.flickr.com/4059/4445705276_bd862a1971.jpg
+    quote: This is a quote viverra libero a posuere iaculis.
     link_portfolio: http://www.google.com/example
     link_email: corinnebrady@gmail.com
     link_git: http://www.google.com/example
@@ -21,7 +21,7 @@ students:
     picture:
     info_p_1: YOLO bicycle rights drinking vinegar cray letterpress. Fashion axe bicycle rights kale chips, asymmetrical Williamsburg four loko retro gluten-free Godard kitsch post-ironic church-key beard. DIY cliche polaroid, umami raw denim irony master cleanse Thundercats letterpress 3 wolf moon fap asymmetrical bitters readymade Pitchfork. Portland plaid Carles, fashion axe put a bird on it readymade twee craft beer disrupt four loko letterpress meh selvage. Asymmetrical food truck polaroid, Truffaut next level occupy Williamsburg letterpress. Gentrify dreamcatcher yr polaroid Brooklyn, McSweeneys High Life Pitchfork Neutra blog. Kale chips pug gentrify, pour-over brunch YOLO hella selfies cray salvia.
     info_p_2: Try-hard whatever keffiyeh, YOLO ugh Carles fixie photo booth farm-to-table ethnic tote bag raw denim. McSweeney's tattooed pug, ugh yr slow-carb gentrify blog roof party Vice Pitchfork messenger bag VHS. Hoodie leggings post-ironic Pinterest Schlitz jean shorts, Neutra XOXO mumblecore wayfarers plaid bitters kale chips. Bushwick cred plaid Schlitz pug flexitarian freegan semiotics, whatever synth Marfa biodiesel butcher. Ennui bicycle rights kogi pour-over American Apparel. Selvage gastropub keytar photo booth, Carles Shoreditch flannel kitsch. High Life XOXO semiotics, tousled cray four loko letterpress.
-    graphic:
+    quote:
     link_portfolio:
     link_email:
     link_git:
@@ -38,7 +38,7 @@ students:
     picture:
     info_p_1: YOLO bicycle rights drinking vinegar cray letterpress. Fashion axe bicycle rights kale chips, asymmetrical Williamsburg four loko retro gluten-free Godard kitsch post-ironic church-key beard. DIY cliche polaroid, umami raw denim irony master cleanse Thundercats letterpress 3 wolf moon fap asymmetrical bitters readymade Pitchfork. Portland plaid Carles, fashion axe put a bird on it readymade twee craft beer disrupt four loko letterpress meh selvage. Asymmetrical food truck polaroid, Truffaut next level occupy Williamsburg letterpress. Gentrify dreamcatcher yr polaroid Brooklyn, McSweeneys High Life Pitchfork Neutra blog. Kale chips pug gentrify, pour-over brunch YOLO hella selfies cray salvia.
     info_p_2: Try-hard whatever keffiyeh, YOLO ugh Carles fixie photo booth farm-to-table ethnic tote bag raw denim. McSweeney's tattooed pug, ugh yr slow-carb gentrify blog roof party Vice Pitchfork messenger bag VHS. Hoodie leggings post-ironic Pinterest Schlitz jean shorts, Neutra XOXO mumblecore wayfarers plaid bitters kale chips. Bushwick cred plaid Schlitz pug flexitarian freegan semiotics, whatever synth Marfa biodiesel butcher. Ennui bicycle rights kogi pour-over American Apparel. Selvage gastropub keytar photo booth, Carles Shoreditch flannel kitsch. High Life XOXO semiotics, tousled cray four loko letterpress.
-    graphic:
+    quote:
     link_portfolio:
     link_email:
     link_git:
@@ -56,7 +56,7 @@ students:
     picture:
     info_p_1: YOLO bicycle rights drinking vinegar cray letterpress. Fashion axe bicycle rights kale chips, asymmetrical Williamsburg four loko retro gluten-free Godard kitsch post-ironic church-key beard. DIY cliche polaroid, umami raw denim irony master cleanse Thundercats letterpress 3 wolf moon fap asymmetrical bitters readymade Pitchfork. Portland plaid Carles, fashion axe put a bird on it readymade twee craft beer disrupt four loko letterpress meh selvage. Asymmetrical food truck polaroid, Truffaut next level occupy Williamsburg letterpress. Gentrify dreamcatcher yr polaroid Brooklyn, McSweeneys High Life Pitchfork Neutra blog. Kale chips pug gentrify, pour-over brunch YOLO hella selfies cray salvia.
     info_p_2: Try-hard whatever keffiyeh, YOLO ugh Carles fixie photo booth farm-to-table ethnic tote bag raw denim. McSweeney's tattooed pug, ugh yr slow-carb gentrify blog roof party Vice Pitchfork messenger bag VHS. Hoodie leggings post-ironic Pinterest Schlitz jean shorts, Neutra XOXO mumblecore wayfarers plaid bitters kale chips. Bushwick cred plaid Schlitz pug flexitarian freegan semiotics, whatever synth Marfa biodiesel butcher. Ennui bicycle rights kogi pour-over American Apparel. Selvage gastropub keytar photo booth, Carles Shoreditch flannel kitsch. High Life XOXO semiotics, tousled cray four loko letterpress.
-    graphic:
+    quote:
     link_portfolio:
     link_email:
     link_git:
@@ -73,7 +73,7 @@ students:
     picture:
     info_p_1: YOLO bicycle rights drinking vinegar cray letterpress. Fashion axe bicycle rights kale chips, asymmetrical Williamsburg four loko retro gluten-free Godard kitsch post-ironic church-key beard. DIY cliche polaroid, umami raw denim irony master cleanse Thundercats letterpress 3 wolf moon fap asymmetrical bitters readymade Pitchfork. Portland plaid Carles, fashion axe put a bird on it readymade twee craft beer disrupt four loko letterpress meh selvage. Asymmetrical food truck polaroid, Truffaut next level occupy Williamsburg letterpress. Gentrify dreamcatcher yr polaroid Brooklyn, McSweeneys High Life Pitchfork Neutra blog. Kale chips pug gentrify, pour-over brunch YOLO hella selfies cray salvia.
     info_p_2: Try-hard whatever keffiyeh, YOLO ugh Carles fixie photo booth farm-to-table ethnic tote bag raw denim. McSweeney's tattooed pug, ugh yr slow-carb gentrify blog roof party Vice Pitchfork messenger bag VHS. Hoodie leggings post-ironic Pinterest Schlitz jean shorts, Neutra XOXO mumblecore wayfarers plaid bitters kale chips. Bushwick cred plaid Schlitz pug flexitarian freegan semiotics, whatever synth Marfa biodiesel butcher. Ennui bicycle rights kogi pour-over American Apparel. Selvage gastropub keytar photo booth, Carles Shoreditch flannel kitsch. High Life XOXO semiotics, tousled cray four loko letterpress.
-    graphic:
+    quote:
     link_portfolio:
     link_email:
     link_git:
@@ -90,7 +90,7 @@ students:
     picture:
     info_p_1: YOLO bicycle rights drinking vinegar cray letterpress. Fashion axe bicycle rights kale chips, asymmetrical Williamsburg four loko retro gluten-free Godard kitsch post-ironic church-key beard. DIY cliche polaroid, umami raw denim irony master cleanse Thundercats letterpress 3 wolf moon fap asymmetrical bitters readymade Pitchfork. Portland plaid Carles, fashion axe put a bird on it readymade twee craft beer disrupt four loko letterpress meh selvage. Asymmetrical food truck polaroid, Truffaut next level occupy Williamsburg letterpress. Gentrify dreamcatcher yr polaroid Brooklyn, McSweeneys High Life Pitchfork Neutra blog. Kale chips pug gentrify, pour-over brunch YOLO hella selfies cray salvia.
     info_p_2: Try-hard whatever keffiyeh, YOLO ugh Carles fixie photo booth farm-to-table ethnic tote bag raw denim. McSweeney's tattooed pug, ugh yr slow-carb gentrify blog roof party Vice Pitchfork messenger bag VHS. Hoodie leggings post-ironic Pinterest Schlitz jean shorts, Neutra XOXO mumblecore wayfarers plaid bitters kale chips. Bushwick cred plaid Schlitz pug flexitarian freegan semiotics, whatever synth Marfa biodiesel butcher. Ennui bicycle rights kogi pour-over American Apparel. Selvage gastropub keytar photo booth, Carles Shoreditch flannel kitsch. High Life XOXO semiotics, tousled cray four loko letterpress.
-    graphic:
+    quote:
     link_portfolio:
     link_email:
     link_git:
