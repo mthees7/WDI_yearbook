@@ -1,88 +1,111 @@
 <!-- Profile partial-->
 
 <h1>This is the profile section</h1>
+
 <% data.profile.students.each do |student| %>
-<div class="row">
-  <div class="col-sm-1 col-md-1"></div>
-  <div class="col-sm-11 col-md-11">
-    <section class="single_profile_section">
-      <div class="profile_student_name">
-        <%= student.name %>
-      </div>
 
-      <div class="profile_student_picture">
-        <img src="<%= student.picture %>">
-      </div>
+  <section class="single_profile_section">
 
-      <div class="profile_student_info">
-        <div class="profile_info_p_1">
-          <%= student.info_p_1 %>
+    <div class="profile_student_name">
+      <h2><%= student.first_name %> <%= student.last_name %></h2>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-7 col-md-7">
+
+        <div class="row">
+          <div class="col-sm-10 col-md-10">
+            <div class="profile_student_info">
+              <div class="profile_info_individual_p profile_info_p_1">
+                <%= student.info_p_1 %>
+              </div>
+              <div class="profile_info_individual_p profile_info_p_2">
+                <%= student.info_p_2 %>
+              </div>
+            </div>
+          </div><!-- col-10 close -->
+
+          <div class="col-sm-2 col-md-2">
+            <div class="profile_student_links">
+                <p>
+                  <a href="<%= student.link_portfolio %>">
+                    <!-- <i class="fa fa-external-link"></i> -->
+                    <i class="fa fa-external-link-square"></i>
+                   </a>
+                </p>
+                <p>
+                  <a href="<%= student.link_email %>">
+                    <i class="fa fa-envelope"></i>
+                    <!-- <i class="fa fa-envelope-o"></i> -->
+                  </a>
+                </p>
+                <p>
+                  <a href="<%= student.link_git %>">
+                    <!-- <i class="fa fa-github-alt"></i> -->
+                    <i class="fa fa-github"></i>
+                    <!-- <i class="fa fa-github-square"></i> -->
+                  </a>
+                </p>
+                <p>
+                  <a href="<%= student.link_linkedin %>">
+                    <i class="fa fa-linkedin"></i>
+                    <!-- <i class="fa fa-linkedin-square"></i> -->
+                  </a>
+                </p>
+                <p>
+                  <a href="<%= student.link_twitter %>">
+                    <i class="fa fa-twitter"></i>
+                    <!-- <i class="fa fa-twitter-square"></i> -->
+                  </a>
+                </p>
+            </div>
+          </div><!-- col-2 close -->
+        </div><!-- row close -->
+
+      </div><!-- col-7 close -->
+
+      <div class="col-sm-5 col-md-5">
+        <div class="profile_student_picture">
+          <img src="<%= student.picture %>">
         </div>
-        <div class="profile_info_p_2">
-          <%= student.info_p_2 %>
-        </div>
-      </div>
+      </div><!-- col-5 close -->
+    </div><!-- row close -->
 
-
-      <div class="profile_graphic">
-        <%= student.quote %>
-      </div>
-
-
-      <div class="profile_student_links">
-        <ul>
-          <li>
-            <a href="<%= student.link_portfolio %>">
-              <i class="fa fa-external-link"></i>
-              <i class="fa fa-external-link-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="<%= student.link_email %>">
-              <i class="fa fa-envelope"></i>
-              <i class="fa fa-envelope-o"></i>
-            </a>
-          </li>
-          <li>
-            <a href="<%= student.link_git %>">
-              <i class="fa fa-github-alt"></i>
-              <i class="fa fa-github"></i>
-              <i class="fa fa-github-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="<%= student.link_linkedin %>">
-              <i class="fa fa-linkedin"></i>
-              <i class="fa fa-linkedin-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="<%= student.link_twitter %>">
-              <i class="fa fa-twitter"></i>
-              <i class="fa fa-twitter-square"></i>
-            </a>
-          </li>
-        </ul>
+    <section class="profile_project_section">
+      <div class="project_section_title">
+        <h3><%= student.first_name %>'s Sample Work</h3>
       </div>
 
       <div class="row">
-        <section class="profile_project_section">
-          <div class="col-sm-6 col-md-6 single_project_container profile_project_1">
-            <div class="profile_project_image"><img src="<%= student.project_1_image %>"></div>
-            <div class="profile_project_title"><%= student.project_1_title %></div>
-            <div class="profile_project_info"><%= student.project_1_info %></div>
-          </div><!-- col 6 close -->
+        <div class="col-sm-6 col-md-6 single_project_container profile_project_1">
+          <div class="profile_project_image">
+            <a href="<%= student.project_1_link %> "><img src="<%= student.project_1_image %>"></a>
+          </div>
+          <div class="profile_project_title">
+            <a href="<%= student.project_1_link %> "><h4><%= student.project_1_title %></h4></a>
+          </div>
+          <div class="profile_project_info"><%= student.project_1_info %></div>
+        </div><!-- col 6 close -->
 
-          <div class="col-sm-6 col-md-6 single_project_container profile_project_2">
-            <div class="project_image"><img src="<%= student.project_2_image %>"></div>
-            <div class="profile_project_title"><%= student.project_2_title %></div>
-            <div class="project_info"><%= student.project_2_info %></div>
-          </div><!-- col 6 close -->
-        </section><!-- profile_project_section close -->
+        <div class="col-sm-6 col-md-6 single_project_container profile_project_2">
+          <div class="profile_project_image">
+            <a href="<%= student.project_2_link %> "><img src="<%= student.project_2_image %>"></a>
+          </div>
+          <div class="profile_project_title">
+            <a href="<%= student.project_2_link %> "><h4><%= student.project_2_title %></h4></a>
+          </div>
+          <div class="profile_project_info"><%= student.project_2_info %></div>
+        </div><!-- col 6 close -->
       </div><!-- row close -->
+      <div id="project_portfolio_link">
+        <h4>To find out more about <%= student.first_name %> and see more of <%= student.gender_possesive %> work, visit <a href="<%= student.link_portfolio %>"><%= student.first_name %>'s portfolio.</a></h4>
+      </div>
+    </section><!-- profile_project_section close -->
 
-    </section><!-- single_profile_section close -->
-  </div><!-- col 11 close -->
-</div><!-- row close -->
+    <div class="profile_quote">
+      <p><%= student.quote %></p>
+    </div>
+
+  </section><!-- single_profile_section close -->
 
 <% end %>

@@ -2,13 +2,18 @@
 /*******************************************
                 COLOURS
 *******************************************/
-
-
+// these are all arbittrary colours, please change
+$primary-font-color: rgba(0, 0, 0, 1); //(black)
+$icon-color: rgba(180, 100, 250, 1);
+$profile-background-color: rgba(100, 150, 100, 0.5);
 
 /*******************************************
                 GENERAL
 *******************************************/
-
+body {
+  color: $primary-font-color;
+  text-align: center;
+}
 
 
 
@@ -49,7 +54,121 @@ li {
 /*******************************************
                 PROFILE PARTIAL
 *******************************************/
-// See Profile.css.scss file
+.single_profile_section {
+  background: $profile-background-color;
+  margin: 30px 30px;
+  padding: 20px;
+
+  .profile_student_name {
+    h2 {
+      font-size: 3em;
+      margin-bottom: 30px;
+      margin-top: -5px;
+    }
+  }
+
+
+  .profile_student_picture img {
+    width: 100%;
+    height: 350px;
+  }
+
+
+  .profile_student_info {
+    text-align: left;
+
+    .profile_info_individual_p {
+      margin-bottom: 20px;
+      text-indent: 40px;
+      font-size: 1.2em;
+    }
+    // .profile_info_p_1 {
+    // }
+    // .profile_info_p_2 {
+    // }
+  }
+
+
+  .profile_student_links {
+    padding-top: 20px;
+
+    p {
+
+      a {
+
+        i {
+          color: $icon-color;
+          font-size: 3em;
+          padding: 10% 0;
+        }
+      }
+    }
+  }
+
+
+  .profile_project_section {
+      margin-top: 30px;
+
+    .project_section_title h3 {
+      margin-bottom: 15px;
+    }
+
+    .single_project_container {
+      margin-bottom: 20px;
+
+      .profile_project_image {
+
+        a {
+
+          img {
+            width: 350px;
+            height: 200px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .profile_project_title {
+
+        a {
+          text-decoration: none;
+
+          h4 {
+
+          }
+        }
+      }
+
+      .profile_project_info {
+        padding: 0 40px;
+      }
+    }
+
+    .project_portfolio_link {
+
+      h4 {
+      margin: 50px;
+
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .profile_quote p {
+    font-style: italic;
+    margin-top: 20px;
+  }
+
+}
+
+
+
+
+
+
 
 
 
