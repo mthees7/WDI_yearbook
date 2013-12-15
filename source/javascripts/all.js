@@ -9,7 +9,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= $(".corinne").offset().top) {
+    if ($(this).scrollTop() >= ($(".corinne").offset().top) - 2) {
       $("#corinne-pic").addClass("hover");
     } else {
       $("#corinne-pic").removeClass("hover");
@@ -17,7 +17,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= $(".albert").offset().top) {
+    if ($(this).scrollTop() >= ($(".albert").offset().top) - 2) {
       $("#albert-pic").addClass("hover");
       $("#corinne-pic").removeClass("hover");
     } else {
@@ -26,7 +26,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= $(".angie").offset().top) {
+    if ($(this).scrollTop() >= ($(".angie").offset().top) - 2) {
       $("#angie-pic").addClass("hover");
       $("#albert-pic").removeClass("hover");
     } else {
@@ -35,7 +35,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= $(".matt").offset().top) {
+    if ($(this).scrollTop() >= ($(".matt").offset().top) - 2) {
       $("#matt-pic").addClass("hover");
       $("#angie-pic").removeClass("hover");
     } else {
@@ -44,7 +44,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= $(".nick").offset().top) {
+    if ($(this).scrollTop() >= ($(".nick").offset().top) - 2) {
       $("#nick-pic").addClass("hover");
       $("#matt-pic").removeClass("hover");
     } else {
@@ -56,7 +56,7 @@ $(window).scroll(function() {
     if ($(this).scrollTop() >= ($(".riana").offset().top) + ($(".riana").height())) {
       $("#riana-pic").removeClass("hover");
       $("#nick-pic").removeClass("hover");
-    } else if ($(this).scrollTop() >= $(".riana").offset().top) {
+    } else if ($(this).scrollTop() >= ($(".riana").offset().top) - 2) {
       $("#riana-pic").addClass("hover");
       $("#nick-pic").removeClass("hover");
     } else {
