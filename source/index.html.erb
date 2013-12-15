@@ -9,13 +9,12 @@ title: WDI Sydney - September 2013
 <div class="main">
   <div class="row">
 
-    <div class="col-md-1">
-      <div class="navigation">
-        <%= partial "navbar" %>
-      </div>
-    </div> <!-- col 1 -->
 
-    <div class="col-md-11">
+    <div class="navigation" id="navigation">
+      <%= partial "navbar" %>
+    </div>
+
+    <div class="col-md-offset-1 col-md-11">
       <div class="GA_info"><!-- this is where the partial for the GA_info will go, please put nav contents into partial GA_info.html.erb -->
         <%= partial "GA_info" %>
       </div><!-- GA_info -->
