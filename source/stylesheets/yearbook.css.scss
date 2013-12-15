@@ -41,7 +41,7 @@ body {
 }
 
 .header {
-  background-image: url("http://placekitten.com/960/500");
+  background-image: url("https://s3.amazonaws.com/uploads.hipchat.com/39979/476837/dVYALfjBggs6e5j/GROUPSHOTS%20%282000%29.jpg");
   height: 100vh;
   background-size: cover;
 }
@@ -58,8 +58,7 @@ li {
 
 .general-assembly-info {
   width: 100%;
-  height: 100vh;
-  background-color: #E51B24;
+  background-color: white; /* #E51B24;*/
 }
 
 .header h1 {
@@ -68,18 +67,30 @@ li {
 }
 
 .ga-info {
-  height: 33vh;
-  margin-top: 15px;
+  height: 25vh;
+  margin-top: 28px;
+}
+
+.ga-info h4 {
+  margin-top: 0px;
 }
 
 .ga-info i {
-  font-size: 30px;
+  font-size: 60px;
+}
+
+i.fa.fa-github-square {
+  margin-bottom: 24px;
 }
 
 .ga-info p {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 30px;
+  padding-top: 0px;
+}
+
+.last {
+  margin-bottom: 100px;
 }
 
 
@@ -91,7 +102,9 @@ li {
   position: absolute;
   top: 100vh;
   height: 100vh;
+  z-index: 1;
   width: 8.34%;
+  min-width: 100px;
   vertical-align: middle;
 }
 
@@ -111,6 +124,10 @@ li {
   background-color: white;
 }
 
+.general-assembly-logo img:hover {
+  border: 5px dotted white;
+}
+
 .profile-pic img {
   border: 4px solid white;
   margin: auto;
@@ -122,6 +139,17 @@ li {
   background-color: white;
 }
 
+.profile-pic img:hover {
+  border: 2px solid white;
+  height: 90px;
+  width: 90px;
+}
+
+.profile-pic img.hover {
+  border: 2px solid white;
+  height: 90px;
+  width: 90px;
+}
 
 
 /*******************************************
