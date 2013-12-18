@@ -2,7 +2,7 @@
 - [X] GitHub repo created
 - [ ] Partial -> see _profile.html.erb
 - [ ] Layout
-- [ ] Scrolling
-- [ ] Nav -> put into _nav.html.erb
-- [ ] Content
+- [X] Scrolling
+- [X] Nav -> put into _nav.html.erb
+- [X] Content
 - [ ] Assets

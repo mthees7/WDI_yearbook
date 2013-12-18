@@ -7,15 +7,13 @@ title: WDI Sydney - September 2013
 </div><!-- header -->
 
 <div class="main">
-  <div class="row ">
+  <div class="row">
 
-    <div class="col-sm-1 col-md-1">
-      <div class="nav"><!-- this is where the nav will go, please put nav contents into partial _nav.html.erb -->
-        <%= partial "navbar" %>
-      </div><!-- nav -->
-    </div><!-- col 1 -->
+    <div class="navigation" id="navigation">
+      <%= partial "navbar" %>
+    </div>
 
-    <div class="col-sm-11 col-md-11">
+    <div class="col-md-offset-1 col-md-11">
       <div class="GA_info"><!-- this is where the partial for the GA_info will go, please put nav contents into partial GA_info.html.erb -->
         <%= partial "GA_info" %>
       </div><!-- GA_info -->
@@ -29,12 +27,12 @@ title: WDI Sydney - September 2013
       </div>
     </div><!-- col 11 -->
 
-  </div><!-- row main -->
+  </div><!-- row -->
 </div><!-- main -->
 
 <script>
-  $(".main").onepage_scroll({
-   sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
+  $(".general-assembly-logo").onepage_scroll({
+   sectionContainer: ".general-assembly-info", // sectionContainer accepts any kind of selector in case you don't want to use section
    easing: "ease", // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
    animationTime: 1000, // AnimationTime let you define how long each section takes to animate
    pagination: true, // You can either show or hide the pagination. Toggle true for show, false for hide.

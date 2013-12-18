@@ -1,10 +1,7 @@
 <!-- Profile partial-->
-
-<h1>This is the profile section</h1>
-
 <% data.profile.students.each do |student| %>
 
-  <section class="single_profile_section">
+  <section class="single_profile_section <%= student.first_name.downcase %>">
 
     <div class="profile_student_name">
       <h2><%= student.first_name %> <%= student.last_name %></h2>
