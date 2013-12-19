@@ -2,50 +2,66 @@ projects:
 
   - name: AirGuideBook
     owner: Nick Doherty
+    sample: Sample text about project
     image: /images/airguidebook.png
     url: http://www.airguidebook.com/
 
   - name: BarHopper
     owner: Angie Gove
+    sample: Sample text about project
     image: /images/barhopper.png
     url: http://barhopper.herokuapp.com/
 
+  - name: Blackjack
+    owner: Riana Ferreira
+    sample: Have a little fun, play a game!
+    image: /images/blackjack.png
+    url: http://rf-blackjack.herokuapp.com/
+
   - name: CubbyLife
     owner: Riana Ferreira
+    sample: Building managers, connect with your tenants
     image: /images/cubbylife.png
     url: http://cubbylife.heroku.com/
 
   - name: CustomisedAcoustic
     owner: Albert Jou
+    sample: Sample text about project
     image: /images/customisedacoustic.png
     url: http://whispering-shore-8643.herokuapp.com/
 
   - name: EdibleLove
     owner: Angie Gove and Corinne Brady
+    sample: Sample text about project
     image: /images/ediblelove.png
     url: http://ediblelove.herokuapp.com/
 
   - name: FocusMe
     owner: Matt Thees
+    sample: Sample text about project
     image: /images/focusgroup.png
     url: http://focusgroupapp.herokuapp.com
 
   - name: Glimpsed
     owner: Corinne Brady
+    sample: Sample text about project
     image: /images/glimpsed.png
     url: http://pictures-app.herokuapp.com/
 
   - name: Hopp
     owner: Matt Thees and Nick Doherty
+    sample: Sample text about project
     image: /images/hopp.png
     url: http://www.hoppto.it/
 
   - name: NeighbourFood
     owner: Albert Jou
+    sample: Sample text about project
     image: /images/neighbourfood.png
     url: http://neighbourfood.com.au
 
   - name: ShareMyRide
     owner: Riana Ferreira
+    sample: Invite someone along on your next road trip
     image: /images/sharemyride.png
     url: http://share-my-ride.herokuapp.com/
