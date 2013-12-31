@@ -4,8 +4,8 @@ students:
     last_name: Brady
     gender_possesive: her
     picture: http://www.placekitten.com/200/200
-    info_p_1: Vital Learning: All of the hard skills and languages - it was ALL important.
-    info_p_2: Future Hope: To get a job I love, contribute to the community and just code more.
+    info_p_1: "Vital Learning: All of the hard skills and languages - it was ALL important."
+    info_p_2: "Future Hope: To get a job I love, contribute to the community and just code more."
     quote: Hard working and curious by nature, she raised so many questions in class to help us clarify concepts.
     link_portfolio: http://www.example.com
     link_email: corinnebrady@gmail.com
@@ -24,15 +24,15 @@ students:
   - first_name: Albert
     last_name: Jou
     gender_possesive: his
-    picture:
-    info_p_1: Vital Learning: Programming.
-    info_p_2: Future Hope: More programming.
+    picture: http://www.placekitten.com/200/200
+    info_p_1: "Vital Learning: Programming."
+    info_p_2: "Future Hope: More programming."
     quote: Complex problems get smashed to bits in the face of just a little Albert logic. I love watching his brain work.
     link_portfolio:
-    link_email:
+    link_email: albert_jou@hotmail.com
     link_git:
-    link_linkedin:
-    link_twitter:
+    link_linkedin: http://au.linkedin.com/in/joualbert/
+    link_twitter: https://twitter.com/joumunji
     project_1_link:
     project_1_link:
     project_1_image: /images/neighbourfood.png
@@ -48,8 +48,8 @@ students:
     gender_possesive: her
     picture:
     info_p_1: Vital Learning
-    info_p_2: Future Hope: Be a kick-ass developer, never stop learning and work on projects I am really passionate about.
-    quote: Angie is as passionate as a person gets - this is especially obvious when it comes to web development.
+    info_p_2: "Future Hope: Be a kick-ass developer, never stop learning and work on projects I am really passionate about."
+    quote: "Angie is as passionate as a person gets - this is especially obvious when it comes to web development."
     link_portfolio:
     link_email:
     link_git:
@@ -69,8 +69,8 @@ students:
     gender_possesive: his
     picture:
     info_p_1:
-    info_p_2: Future Hope: Get my first job as a Web-Developer.
-    quote: Always up for a challenge, able to pick things up super-quick, and bursting at the seams with creativity. Ready to take on the world.
+    info_p_2: "Future Hope: Get my first job as a Web-Developer."
+    quote: "Always up for a challenge, able to pick things up super-quick, and bursting at the seams with creativity. Ready to take on the world."
     link_portfolio:
     link_email:
     link_git:
@@ -89,12 +89,12 @@ students:
     last_name: Doherty
     gender_possesive: his
     picture:
-    info_p_1: Vital Learning: Being able to realise my ideas and quickly prototype an app is so exciting.
-    info_p_2: Future Hope: To really master everything we have covered and just keep learning.
+    info_p_1: "Vital Learning: Being able to realise my ideas and quickly prototype an app is so exciting."
+    info_p_2: "Future Hope: To really master everything we have covered and just keep learning."
     quote: Nick is one of the most creative people I've ever met.  He is able to look at a problem from a unique perspective and apply that brilliantly to his code.
     link_portfolio: www.nickdoherty.me
     link_email: nickdoherty@gmail.com
-    link_git: https://github.com/nick-doherty
+    link_git: "https://github.com/nick-doherty"
     link_linkedin: http://au.linkedin.com/in/nickdohertysydney/
     link_twitter: https://twitter.com/nickdoco
     project_1_link: http://www.hoppto.it
@@ -110,18 +110,18 @@ students:
     last_name: Ferreira
     gender_possesive: her
     picture:
-    info_p_1: Vital Learning: My collaboration with team mates on projects - learning how to share ideas and give constructive input.
-    info_p_2: To work on a team where I can apply all the skills I've learnt in WDI - and to keep learning.
+    info_p_1: "Vital Learning: My collaboration with team mates on projects - learning how to share ideas and give constructive input."
+    info_p_2: "To work on a team where I can apply all the skills I've learnt in WDI - and to keep learning."
     quote: Riana is an incredibly determined and hard working person with a curious mind, perfectly suited for coding.
     link_portfolio: http://rianaferreira.github.io/
     link_email: rianaferreira@gmail.com
     link_git: https://github.com/RianaFerreira
-    link_linkedin: au.linkedin.com/pub/riana-ferreira/6/953/126/
+    link_linkedin: "au.linkedin.com/pub/riana-ferreira/6/953/126/"
     link_twitter: https://twitter.com/riana_ferreira
     project_1_link: http://cubbylife.heroku.com/
     project_1_image: /images/cubbylife.png
     project_1_title: CubbyLife
-    project_2_link: http://share-my-ride.herokuapp.com/
+    project_2_link: "http://share-my-ride.herokuapp.com/"
     project_1_info: CubbyLife connects building managers with their building tenants. Building managers are able to schedule events that affect the tenants and in turn the tenants would notified and then have the opportunity to register for the events. Work is in progress to provide an online social platform for building tenants to interact.
     project_2_image: /images/sharemyride.png
     project_2_title: ShareMyRide
