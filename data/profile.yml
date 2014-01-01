@@ -1,17 +1,17 @@
 students:
 
-  - first_name: Corinne
-    last_name: Brady
+  - first_name: "Corinne"
+    last_name: "Brady"
     gender_possesive: her
-    picture: http://www.placekitten.com/200/200
+    picture: /images/corinne.jpg
     info_p_1: "Vital Learning: All of the hard skills and languages - it was ALL important."
     info_p_2: "Future Hope: To get a job I love, contribute to the community and just code more."
-    quote: Hard working and curious by nature, she raised so many questions in class to help us clarify concepts.
-    link_portfolio: http://www.example.com
-    link_email: corinnebrady@gmail.com
-    link_git: http://www.example.com
-    link_linkedin: http://www.example.com
-    link_twitter: http://www.example.com
+    quote: "Hard working and curious by nature, she raised so many questions in class to help us clarify concepts."
+    link_portfolio: "http://www.corinnebrady.com/"
+    link_email: "corinnebrady@gmail.com"
+    link_git: "https://github.com/corinnebrady"
+    link_linkedin: "http://au.linkedin.com/pub/corinne-brady/18/bb6/a9"
+    link_twitter: "https://twitter.com/corinnebrady"
     project_1_link: http://www.example.com
     project_1_image: /images/glimpsed.png
     project_1_title: Glimpsed
@@ -21,10 +21,10 @@ students:
     project_2_title: EdibleLove
     project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
 
-  - first_name: Albert
-    last_name: Jou
+  - first_name: "Albert"
+    last_name: "Jou"
     gender_possesive: his
-    picture: http://www.placekitten.com/200/200
+    picture: /images/alb.jpg
     info_p_1: "Vital Learning: Programming."
     info_p_2: "Future Hope: More programming."
     quote: Complex problems get smashed to bits in the face of just a little Albert logic. I love watching his brain work.
@@ -46,7 +46,7 @@ students:
   - first_name: Angie
     last_name: Gove
     gender_possesive: her
-    picture:
+    picture: /images/angie.jpg
     info_p_1: Vital Learning
     info_p_2: "Future Hope: Be a kick-ass developer, never stop learning and work on projects I am really passionate about."
     quote: "Angie is as passionate as a person gets - this is especially obvious when it comes to web development."
@@ -67,7 +67,7 @@ students:
   - first_name: Matt
     last_name: Thees
     gender_possesive: his
-    picture:
+    picture: /images/matt.jpg
     info_p_1:
     info_p_2: "Future Hope: Get my first job as a Web-Developer."
     quote: "Always up for a challenge, able to pick things up super-quick, and bursting at the seams with creativity. Ready to take on the world."
@@ -88,7 +88,7 @@ students:
   - first_name: Nick
     last_name: Doherty
     gender_possesive: his
-    picture:
+    picture: /images/nick.jpg
     info_p_1: "Vital Learning: Being able to realise my ideas and quickly prototype an app is so exciting."
     info_p_2: "Future Hope: To really master everything we have covered and just keep learning."
     quote: Nick is one of the most creative people I've ever met.  He is able to look at a problem from a unique perspective and apply that brilliantly to his code.
@@ -109,7 +109,7 @@ students:
   - first_name: Riana
     last_name: Ferreira
     gender_possesive: her
-    picture:
+    picture: /images/riana.jpg
     info_p_1: "Vital Learning: My collaboration with team mates on projects - learning how to share ideas and give constructive input."
     info_p_2: "To work on a team where I can apply all the skills I've learnt in WDI - and to keep learning."
     quote: Riana is an incredibly determined and hard working person with a curious mind, perfectly suited for coding.
