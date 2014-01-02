@@ -137,6 +137,7 @@ i.fa.fa-github-square {
   margin-bottom: 1vh;
   border-radius: 50%;
   background-color: white;
+  transition: all 0.2s linear;
 }
 
 .profile-pic img:hover {
@@ -150,6 +151,45 @@ i.fa.fa-github-square {
   height: 90px;
   width: 90px;
 }
+
+.gallery-link {
+  background-color: white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 15px;
+  transition: all 0.2s linear;
+}
+
+.back-to-top {
+  background-color: white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: auto;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 15px;
+  transition: all 0.2s linear;
+}
+
+span.navbar-link {
+  font-size: 12px;
+}
+
+.gallery-link:hover {
+  border: 2px solid yellow;
+  width: 90%;
+}
+
+.back-to-top:hover {
+  border: 2px solid yellow;
+  width: 90%;
+}
+
 
 
 /*******************************************

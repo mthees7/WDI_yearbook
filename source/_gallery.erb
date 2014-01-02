@@ -3,11 +3,10 @@
 <h1>This is the gallery section</h1>
 
 <% data.project.projects.each do |project| %>
-  <div class="view view-first">
+  <div class="view view-first" style="background-image:url(<%= project.image %>)">
     <div class="mask">
-      <img src="<% project.image %>"/>
       <h2><%= project.name %></h2>
-      <p>Sample text about project</p>
+      <p><%= project.sample %></p>
       <a href="<%= project.url %>" class="info">Read More</a>
     </div>
   </div>
