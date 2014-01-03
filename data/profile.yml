@@ -114,14 +114,14 @@ students:
     info_p_2: "To work on a team where I can apply all the skills I've learnt in WDI - and to keep learning."
     quote: Riana is an incredibly determined and hard working person with a curious mind, perfectly suited for coding.
     link_portfolio: http://rianaferreira.github.io/
-    link_email: rianaferreira@gmail.com
+    link_email: mailto:rianaferreira+wdi@gmail.com
     link_git: https://github.com/RianaFerreira
-    link_linkedin: "au.linkedin.com/pub/riana-ferreira/6/953/126/"
+    link_linkedin: http://www.linkedin.com/pub/riana-ferreira/6/953/126
     link_twitter: https://twitter.com/riana_ferreira
     project_1_link: http://cubbylife.heroku.com/
     project_1_image: /images/cubbylife.png
     project_1_title: CubbyLife
-    project_2_link: "http://share-my-ride.herokuapp.com/"
+    project_2_link: http://share-my-ride.herokuapp.com/
     project_1_info: CubbyLife connects building managers with their building tenants. Building managers are able to schedule events that affect the tenants and in turn the tenants would notified and then have the opportunity to register for the events. Work is in progress to provide an online social platform for building tenants to interact.
     project_2_image: /images/sharemyride.png
     project_2_title: ShareMyRide
