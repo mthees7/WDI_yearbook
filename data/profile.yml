@@ -30,18 +30,17 @@ students:
     quote: Complex problems get smashed to bits in the face of just a little Albert logic. I love watching his brain work.
     link_portfolio:
     link_email: albert_jou@hotmail.com
-    link_git:
+    link_git: "https://github.com/albertjou"
     link_linkedin: http://au.linkedin.com/in/joualbert/
     link_twitter: https://twitter.com/joumunji
-    project_1_link:
-    project_1_link:
+    project_1_link: "http://www.neigbourfood.com.au"
     project_1_image: /images/neighbourfood.png
     project_1_title: NeighbourFood
-    project_1_info: Project 1 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget purus arcu. Duis et.
-    project_2_link:
+    project_1_info: "Share food with your neighbours easily using Neighbourfood, the premier marketplace for home-cooked meals"
+    project_2_link: "http://customised-acoustic.herokuapp.com"
     project_2_image: /images/customisedacoustic.png
     project_2_title: CustomisedAcoustic
-    project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
+    project_2_info: "Be Unique, create your own custom guitars that express who you are."
 
   - first_name: Angie
     last_name: Gove
