@@ -12,14 +12,14 @@ students:
     link_git: "https://github.com/corinnebrady"
     link_linkedin: "http://au.linkedin.com/pub/corinne-brady/18/bb6/a9"
     link_twitter: "https://twitter.com/corinnebrady"
-    project_1_link: http://www.example.com
+    project_1_link: http://pictures-app.herokuapp.com/
     project_1_image: /images/glimpsed.png
     project_1_title: Glimpsed
-    project_1_info: Project 1 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget purus arcu. Duis et.
-    project_2_link: http://www.example.com
-    project_2_image: /images/ediblelove.png
-    project_2_title: EdibleLove
-    project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
+    project_1_info: Special moments, Glimpsed for an instant.
+    project_2_link: http://gignotes.herokuapp.com/
+    project_2_image: /images/gignotes.png
+    project_2_title: Gig Notes
+    project_2_info: Get the details on all the gigs coming to your city.
 
   - first_name: "Albert"
     last_name: "Jou"
@@ -50,19 +50,19 @@ students:
     info_p_1: Vital Learning
     info_p_2: "Future Hope: Be a kick-ass developer, never stop learning and work on projects I am really passionate about."
     quote: "Angie is as passionate as a person gets - this is especially obvious when it comes to web development."
-    link_portfolio:
-    link_email:
-    link_git:
-    link_linkedin:
-    link_twitter:
-    project_1_link:
+    link_portfolio: www.angiegove.com
+    link_email: ang.gove@gmail.com
+    link_git: https://github.com/angiegove
+    link_linkedin: https://twitter.com/Angie_Gove
+    link_twitter: https://twitter.com/Angie_Gove
+    project_1_link: http://barhopper.herokuapp.com/
     project_1_image: /images/barhopper.png
-    project_1_title: Project 1 BarHopper
-    project_1_info: Project 1 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget purus arcu. Duis et.
-    project_2_link:
+    project_1_title: BarHopper
+    project_1_info:  Create a wish list of bars for your special event.
+    project_2_link: http://ediblelove.herokuapp.com/
     project_2_image: /images/ediblelove.png
-    project_2_title: Project 2 EdibleLove
-    project_2_info: Project 2 Test info.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis vulputate sapien quis ultrices. Aenean nec facilisis lectus. Etiam eget velit dolor.
+    project_2_title: EdibleLove
+    project_2_info: Create, save and share pdf cookbooks with the ones you love.
 
   - first_name: Matt
     last_name: Thees
@@ -76,14 +76,14 @@ students:
     link_git:
     link_linkedin:
     link_twitter:
-    project_1_link:
-    project_1_image: /images/focusgroup.png
-    project_1_title: FocusMe
-    project_1_info: Irure whatever Truffaut, next level Brooklyn velit labore culpa nostrud nisi biodiesel. Occupy ea before they sold out, drinking vinegar kitsch vegan pour-over literally. You probably haven't heard of them selvage nesciunt brunch, commodo ugh Cosby sweater sint fingerstache direct trade do biodiesel plaid. Adipisicing Thundercats scenester seitan Echo Park flexitarian. Excepteur locavore ennui enim. Tousled ugh Neutra ea eu synth. Brooklyn keffiyeh voluptate beard put a bird on it.
-    project_2_link:
-    project_2_image: /images/hopp.png
-    project_2_title: Hopp
-    project_2_info: Labore stumptown Tonx in, excepteur reprehenderit cray. Ea skateboard nostrud cred anim quinoa. Tonx master cleanse chillwave fashion axe pork belly, et quis typewriter qui twee Schlitz tote bag salvia fixie. Flexitarian single-origin coffee kitsch, authentic chia dreamcatcher pariatur Intelligentsia duis cupidatat. Lomo Neutra DIY chia flannel. Chia flannel photo booth Neutra lomo. Cornhole freegan gentrify sint trust fund, ethnic meggings Echo Park hoodie mixtape ethical.
+    project_1_link: http://www.hoppto.it
+    project_1_image: /images/hopp.png
+    project_1_title: Hopp
+    project_1_info: Fill your time with the stuff you love.
+    project_2_link: http://www.linklove.us
+    project_2_image: /images/linklove.png
+    project_2_title: LinkLove
+    project_2_info: Share your favourite web content with your closest friends.
 
   - first_name: Nick
     last_name: Doherty
@@ -98,11 +98,11 @@ students:
     link_linkedin: http://au.linkedin.com/in/nickdohertysydney/
     link_twitter: https://twitter.com/nickdoco
     project_1_link: http://www.hoppto.it
-    project_1_image: /images/airguidebook.png
+    project_1_image: /images/hopp.png
     project_1_title: Hopp
     project_1_info: Fill your time with the stuff you love.
     project_2_link: http://www.linklove.us
-    project_2_image: /images/hopp.png
+    project_2_image: /images/linklove.png
     project_2_title: LinkLove
     project_2_info: Share your favourite web content with your closest friends.
 
