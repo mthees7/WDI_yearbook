@@ -12,7 +12,7 @@ students:
     link_git: "https://github.com/corinnebrady"
     link_linkedin: "http://au.linkedin.com/pub/corinne-brady/18/bb6/a9"
     link_twitter: "https://twitter.com/corinnebrady"
-    project_1_link: http://pictures-app.herokuapp.com/
+    project_1_link: http://glimpsed.herokuapp.com/
     project_1_image: /images/glimpsed.png
     project_1_title: Glimpsed
     project_1_info: Special moments, Glimpsed for an instant.
