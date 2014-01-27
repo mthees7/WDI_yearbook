@@ -46,7 +46,7 @@ projects:
     owner: Corinne Brady
     sample: Sample text about project
     image: /images/glimpsed.png
-    url: http://pictures-app.herokuapp.com/
+    url: http://glimpsed.herokuapp.com/
 
   - name: Hopp
     owner: Matt Thees and Nick Doherty
